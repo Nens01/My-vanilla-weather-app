@@ -33,13 +33,22 @@
             <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
               <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              <span id="current-description"></span>
+            </p>
+            <p class="current-details">
+              <span id="time"></span>
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="Humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="current-temperature">
-            <img
-              src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            />
+            <div>
+              <img
+                src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              />
+            </div>
             <span class="current-temperature-value" id="current-temperature"
               >24</span
             ><span class="current-temperature-unit">°C</span>
@@ -52,7 +61,7 @@
           <a href="https://github.com/Nens01" target="_blank"
             >Neneemma Oguchi</a
           >
-          and is
+          and is open sourced on
           <a
             href="https://github.com/Nens01/My-vanilla-weather-app"
             target="_blank"
@@ -64,6 +73,6 @@
         </p>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
-  <script src="index.js"></script>
 </html>
