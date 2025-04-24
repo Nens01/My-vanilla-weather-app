@@ -10,8 +10,8 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>My weather application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Weather Application</title>
   </head>
   <body>
     <div class="weather-app">
@@ -22,37 +22,48 @@
             placeholder="Enter a city.."
             required
             class="search-input"
-            id="search-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div class="current-weather">
+        <div class="weather-app-data">
           <div>
-            <h1 class="current-city" id="current-city">Paris</h1>
-            <p class="current-details">
-              <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            <h1 class="weather-app-city" id="city">Paris</h1>
+            <p class="weather-app-details">
+              <span id="time">Loading time</span>,
+              <span id="description">clear sky</span><br />
+              Humidity: <strong id="humidity">--</strong>, Wind:
+              <strong id="wind-speed">--</strong>
             </p>
           </div>
-          <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
-            ><span class="current-temperature-value" id="current-temperature"
-              >24</span
-            ><span class="current-temperature-unit">°C</span>
+
+          <div class="weather-app-temperature-container">
+            <div id="icon" class="weather-app-icon"></div>
+            <div class="weather-app-temperature" id="temperature">--</div>
+            <div class="weather-app-unit">°C</div>
           </div>
         </div>
+
+        <div class="weather-forecast" id="forecast">
+          <!-- Forecast days will be injected here -->
+        </div>
+        <footer>
+            This project was coded by
+            <a href="https://github.com/Nens01/" target="_blank">
+              Neneemma Oguchi</a
+            >, is
+            <a
+              href="https://github.com/Nens01/My-vanilla-weather-app"
+              target="_blank"
+              >open-sourced on GitHub</a
+            >
+            and
+            <a href="" target="_blank">hosted on Netlify</a>
       </main>
-      <footer>
-        <p>
-          This project was coded by
-          <a href="#" target="_blank">Your name</a> and is
-          <a href="#" target="_blank"> on GitHub</a> and
-          <a href="#" target="_blank">hosted on Netlify</a>
-        </p>
-      </footer>
     </div>
+
+    <script src="index.js"></script>
   </body>
-  <script src="src/index.js"></script>
 </html>
