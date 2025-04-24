@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>My weather application</title>
   </head>
   <body>
@@ -33,23 +33,12 @@
             <h1 class="current-city" id="current-city">Paris</h1>
             <p class="current-details">
               <span id="current-date"></span>, moderate rain <br />
-              <span id="current-description"></span>
-            </p>
-            <p class="current-details">
-              <span id="time"></span>
-              <span id="description"></span>
-              <br />
-              Humidity: <strong id="Humidity"></strong>, Wind:
-              <strong id="wind-speed"></strong>
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
           <div class="current-temperature">
-            <div>
-              <img
-                src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-              />
-            </div>
-            <span class="current-temperature-value" id="current-temperature"
+            <span class="current-temperature-icon">☀️</span
+            ><span class="current-temperature-value" id="current-temperature"
               >24</span
             ><span class="current-temperature-unit">°C</span>
           </div>
@@ -58,21 +47,12 @@
       <footer>
         <p>
           This project was coded by
-          <a href="https://github.com/Nens01" target="_blank"
-            >Neneemma Oguchi</a
-          >
-          and is open sourced on
-          <a
-            href="https://github.com/Nens01/My-vanilla-weather-app"
-            target="_blank"
-          >
-            on GitHub</a
-          >
-          and
-          <a href="" target="_blank">hosted on Netlify</a>
+          <a href="#" target="_blank">Your name</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
         </p>
       </footer>
     </div>
-    <script src="index.js"></script>
   </body>
+  <script src="src/index.js"></script>
 </html>

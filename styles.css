@@ -1,14 +1,14 @@
 body {
-  background: #f6c6d9;
+  background: #f9f7fe;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #fe04b7;
+  color: #885df1;
 }
 
 .weather-app {
-  background: rgb(247, 150, 207);
+  background: white;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
@@ -34,8 +34,8 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #8efbf7;
-  color: rgb(78, 2, 52);
+  background-color: #885df1;
+  color: white;
   border: none;
   padding: 20px;
   line-height: 1;
@@ -48,8 +48,6 @@ main {
 
 .current-temperature {
   font-size: 48px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .current-weather {
@@ -61,46 +59,40 @@ main {
   font-size: 38px;
   font-weight: 900;
   margin: 0;
-  color: beige;
-  font-family: cursive;
 }
 .current-details {
-  color: seashell;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .current-details strong {
   color: #f65282;
 }
 
-img {
+.current-temperature-icon {
   position: relative;
-  top: 15px;
+  top: -8px;
   font-size: 40px;
-  margin-right: -5px;
+  margin-right: 10px;
 }
 
 .current-temperature-value {
   font-size: 80px;
   font-weight: bold;
-  color: beige;
 }
 
 .current-temperature-unit {
   font-size: 28px;
   position: relative;
   top: -38px;
-  color: beige;
 }
 
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
   padding-top: 15px;
+
   color: rgba(39, 33, 66, 0.4);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  letter-spacing: 5px;
 }
