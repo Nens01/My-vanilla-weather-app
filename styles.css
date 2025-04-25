@@ -1,18 +1,18 @@
 body {
-  background: #f5b6ca;
+  background: #0f0005;
   font-family: fantasy;
 }
 a {
-  color: #f60656;
+  color: #150107;
 }
 
 .weather-app {
-  background: rgb(215, 138, 188);
+  background: rgb(246, 4, 105);
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 50px 80px rgba(65, 50, 100, 0.08);
 }
 
 header {
@@ -35,8 +35,8 @@ header {
 .search-form-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #ff087f;
-  color: white;
+  background-color: #ea9ec3;
+  color: rgb(5, 5, 5);
   border: none;
   padding: 20px;
   line-height: 1;
@@ -105,5 +105,5 @@ footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
   padding-top: 15px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgb(251, 236, 248);
 }
