@@ -1,5 +1,5 @@
 body {
-  background: #0f0005;
+  background: #f3d5df;
   font-family: fantasy;
 }
 a {
@@ -7,7 +7,7 @@ a {
 }
 
 .weather-app {
-  background: rgb(246, 4, 105);
+  background: rgb(239, 114, 166);
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
