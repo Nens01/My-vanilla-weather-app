@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
-    
   </head>
   <body>
     <div class="weather-app">
@@ -27,16 +27,16 @@
           <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
+
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">Paris</h1>
+            <h1 class="weather-app-city" id="city">City</h1>
             <p class="weather-app-details">
               <span id="time">Loading time</span>,
-              <span id="description">clear sky</span><br />
-              Humidity: <strong id="humidity">--</strong>, Wind:
+              <span id="description">Description</span><br />
+              Humidity: <strong id="humidity">--</strong>%, Wind:
               <strong id="wind-speed">--</strong>
-          
             </p>
           </div>
 
@@ -44,30 +44,28 @@
             <div id="icon" class="weather-app-icon"></div>
             <div class="weather-app-temperature" id="temperature">--</div>
             <div class="weather-app-unit">°C</div>
-            <div class="weather-forecast" id="forecast"></div>
-      </main>
-            
           </div>
         </div>
-        <footer>
-        This project was coded by
-            <a href="https://github.com/Nens01/" target="_blank">
-              Neneemma Oguchi</a
-            >, is
-            <a
-              href="https://github.com/Nens01/My-vanilla-weather-app"
-              target="_blank"
-              >open-sourced on GitHub</a
-            >
-            and
-            <a href="https://my-funky-weather.netlify.app/" target="_blank">hosted on Netlify</a>
-            </footer>
-            </div>
-      </main>
-        </div>
-        
-    </div>
 
+        <div class="weather-app-forecast" id="forecast"></div>
+        <footer>
+          This project was coded by
+          <a href="https://github.com/Nens01/" target="_blank"
+            >Neneemma Oguchi</a
+          >, is
+          <a
+            href="https://github.com/Nens01/My-vanilla-weather-app"
+            target="_blank"
+          >
+            open-sourced on GitHub</a
+          >
+          and
+          <a href="https://my-funky-weather.netlify.app/" target="_blank">
+            hosted on Netlify</a
+          >
+        </footer>
+      </main>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
