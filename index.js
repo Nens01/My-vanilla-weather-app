@@ -52,7 +52,7 @@ function displayForecast(response) {
   let forecast = response.data.daily;
   let forecastElement = document.querySelector("#forecast");
 
-  let forecastHTML = `<div class="weather-app-forecast-container">`;
+  let forecastHTML = ``;
 
   forecast.forEach(function (day, index) {
     if (index < 5) {
@@ -75,7 +75,6 @@ function displayForecast(response) {
     }
   });
 
-  forecastHTML += `</div>`;
   forecastElement.innerHTML = forecastHTML;
 }
 
